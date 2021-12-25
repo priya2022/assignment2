@@ -227,38 +227,31 @@ margin-top:-13px;
 }*/
 @media only screen and (max-width:400px){
     .db{
-        width:90%;
+        width:60%;
         margin: auto;
-        
-    
-        height:50px;
+        height:110px;
         margin-top:50px;
         box-sizing: border-box;
-        margin-left:22%;
         align-items: center;
         justify-content:center;
         
     }
     select{
-        height:40px;
-        width:45%;
+        height:70px;
+        width:40%;
         color:#ffffff;
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
         border:1px solid white;
         padding-left:10px;
-        margin-left:-28px;
         
-        
-
-       
     }
     .rselect{
-        height:50px;
-        width:50%;
+        height:70px;
+        width:58%;
         color:#ffffff;
         border:1px solid white;
         padding-left:10px;
-        
+        float:bottom;
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
     }
     .box
