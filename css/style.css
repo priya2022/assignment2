@@ -20,7 +20,7 @@ font-family: 'Quicksand', sans-serif;
 
 .box
 {
-height:180px;
+height:200px;
 background:#f4f8fd;
 margin:10px;
 padding:3px;
@@ -40,7 +40,7 @@ border-top-right-radius: 15px;
 .im>img 
 {
 background-size: contain;
-height:100px;
+height:130px;
 position: relative;
 width: 100%;
 border-top-right-radius: 15px;
@@ -232,31 +232,74 @@ margin-top:-13px;
         
     
         height:50px;
-        margin-top:27px;
+        margin-top:50px;
         box-sizing: border-box;
         margin-left:22%;
+        
         
     }
     select{
         height:40px;
-        width:30%;
+        width:50%;
         color:#ffffff;
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
         border:1px solid white;
         padding-left:10px;
+        margin-left:-28px;
+        
         
 
        
     }
     .rselect{
-        height:40px;
-        width:36%;
+        height:50px;
+        width:50%;
         color:#ffffff;
         border:1px solid white;
         padding-left:10px;
         
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
     }
+    .box
+{
+height:200px;
+background:#f4f8fd;
+margin:10px;
+padding:3px;
+box-shadow: 10px 15px 10px #000000;
+align-items: center;
+justify-content: center;
+background: linear-gradient(80deg, rgb(245, 242, 242), rgb(246, 207, 207));
+border-bottom-left-radius: 15px;
+border-top-right-radius: 15px;
+
+
+}
+.im>img 
+{
+background-size: contain;
+height:120px;
+position: relative;
+width: 100%;
+border-top-right-radius: 15px;
+}
+.mh
+{
+    font-size:20px;
+    padding-top:12px;
+    font-weight:800;
+}
+.mh>h3 {
+    padding-left: 25px;
+    margin-top: 6px;
+    color: #694567;
+}
+.mh>h4 {
+    font-size: 20px;
+    padding-left: 23px;
+    color: #383775;
+    margin-top: -23px;
+}
     
 }
 
