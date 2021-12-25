@@ -235,7 +235,8 @@ margin-top:-13px;
         margin-top:50px;
         box-sizing: border-box;
         margin-left:22%;
-        
+        align-items: center;
+        justify-content:center;
         
     }
     select{
