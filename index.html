@@ -10,12 +10,22 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    
+        <style>
+          .dark { background-color:black; color:white}
+      </style>
+       <script>
+           function change()
+           {
+               var mybody =document.body;
+               mybody.classList.toggle('dark')
+           }
+       </script>
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light my-sm-0  >
+        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light my-sm-0 ">
             <a class="navbar-brand ml-5" href="#"><i style="color:#d81511;"><h3>Zomato</h3></i></a>
-           
+            <a class="nav-link ml-auto"onclick="change()" id="yellow"href="#"><i class="fas fa-moon"></i><span id="ml">DarkMode</span>
+            </i></a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon d-x-icon"></span>
             </button>
