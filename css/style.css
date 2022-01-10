@@ -174,7 +174,7 @@ a:hover{
   
    position: relative;
    min-height:100vh;
-   margin-bottom: 0px;
+   
    border:2px solid white;
    background-image: url('../images/23.jpg');
    background-attachment: fixed;
