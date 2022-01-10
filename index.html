@@ -15,21 +15,23 @@
           
           .dark 
           { 
-            background-color:black; 
+            background-color:rgba(20, 19, 19, 0.931); 
             color:white
           }
+          
+         
       </style>
        <script>
            function change()
            {
                var mybody =document.body;
                mybody.classList.toggle('dark')
-               var mynav = document.nav;
-               mynav.classList.toggle('bg-dark')
-               var myb2 =document.b2;
-               myb2.classList.toggle('dark')
-               document.body.style.backgroundImage = 'none';
-
+               document.getElementById("b2").style.backgroundImage="none"  
+               document.getElementById("b2").classList.toggle('dark')   
+               document.querySelector(".white").style.color="white"  
+                document.querySelector("#navbar").classList.toggle('dark')
+                
+                
            }
        </script>
     </head>
@@ -37,9 +39,9 @@
       <script>
         window.onload=getCity()
     </script>
-        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light my-sm-0 ">
+        <nav class="navbar   navbar-expand-md navbar-light my-sm-0 ">
             <a class="navbar-brand ml-5" href="#"><i style="color:#d81511;"><h3>Zomato</h3></i></a>
-            <a class="nav-link ml-auto"onclick="change()" id="yellow"href="#"><i class="fas fa-moon"></i><span id="ml">DarkMode</span>
+            <a class="nav-link ml-auto"onclick="change()" id="yellow"href="#"><i class="fas fa-moon"></i><span id="ml" id="light" >Dark Mode</span>
             </i></a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon d-x-icon"></span>
@@ -110,17 +112,17 @@
        
        <!--Content site-->
 
-       <div class="b2 section">
+       <div class="b2 section" id="b2">
             <div class="mh">
-                <h3>Quick Search</h3><br>
-                <h4>Discover Restaurants By Meal</h4>
+                <h3 class="white">Quick Search</h3><br>
+                <h4 class="white">Discover Restaurants By Meal</h4>
             </div>
             
             <div class="container-fluid" id="con1">
             
                 <div class="row  align-items-center justify-content-center">
         
-                    <div class=" col-md-3 col-sm-5  col-9 box p-1 hover-zoom">
+                    <div class=" col-md-3 col-sm-5  col-9 box p-1 hover-zoom" id="just">
                         <a href="">
                         <div class="im">
                             <img src="images/break1.png" alt="">
