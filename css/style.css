@@ -113,7 +113,7 @@ select>option{
 .b1
 {
     
-    height:500px;
+    height:100vh;
     border:1px solid #eff0f4;
     position:relative;
     background-image: url('../images/food1123.jpg');
@@ -171,10 +171,10 @@ a:hover{
 
 .b2
 {
-   
+  
    position: relative;
-   min-height:570px;
-   margin-bottom: 10px;
+   min-height:100vh;
+   margin-bottom: 0px;
    border:2px solid white;
    background-image: url('../images/23.jpg');
    background-attachment: fixed;
@@ -227,7 +227,7 @@ margin-top:-13px;
 }*/
 @media only screen and (max-width:400px){
     .db{
-        width:60%;
+        width:80%;
         margin: auto;
         height:110px;
         margin-top:50px;
@@ -294,6 +294,21 @@ border-top-right-radius: 15px;
     color: #383775;
     margin-top: -23px;
 }
+
+    
+.snap
+{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height:100vh;
+    
+}
+.section
+{
+    scroll-snap-align: center;
     
 }
 
+.foo{
+    color:black;
+}}

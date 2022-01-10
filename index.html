@@ -10,18 +10,33 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src="javascript/main.js"></script>
         <style>
-          .dark { background-color:black; color:white}
+          
+          .dark 
+          { 
+            background-color:black; 
+            color:white
+          }
       </style>
        <script>
            function change()
            {
                var mybody =document.body;
                mybody.classList.toggle('dark')
+               var mynav = document.nav;
+               mynav.classList.toggle('bg-dark')
+               var myb2 =document.b2;
+               myb2.classList.toggle('dark')
+               document.body.style.backgroundImage = 'none';
+
            }
        </script>
     </head>
     <body>
+      <script>
+        window.onload=getCity()
+    </script>
         <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light my-sm-0 ">
             <a class="navbar-brand ml-5" href="#"><i style="color:#d81511;"><h3>Zomato</h3></i></a>
             <a class="nav-link ml-auto"onclick="change()" id="yellow"href="#"><i class="fas fa-moon"></i><span id="ml">DarkMode</span>
@@ -44,8 +59,10 @@
             </div>
           </nav>
           <!--Main page-->
+
+          <div class="snap">
          
-        <div class="b1">
+        <div class="b1 section">
             
 
            <div class="logo">
@@ -59,32 +76,18 @@
             </div>
 
             <div class="db">
-                
-              <select>
-                  <option value="location"><i class="fas fa-map-marker-alt"></i> select city</option>
+
+              
+              <select onChange="getHotel()" id="city" >
+                  <option ><i class="fas fa-map-marker-alt"></i> select city</option>
                       
                      
                   
-                  <option>
-                      Delhi
-                  </option>
-                  <option>
-                      Mumbai
-                  </option>
-                  <option>
-                      Pune
-                  </option>
-                  <option>
-                      Chennai
-                  </option>
-                  <option>
-                      Noida
-                  </option>
               </select>
           
 
           
-              <select class="rselect">
+              <select class="rselect" id="hotels">
                   <option>
                       <i class="fas fa-search"></i>
 
@@ -107,7 +110,7 @@
        
        <!--Content site-->
 
-       <div class="b2">
+       <div class="b2 section">
             <div class="mh">
                 <h3>Quick Search</h3><br>
                 <h4>Discover Restaurants By Meal</h4>
@@ -201,7 +204,7 @@
 
            
         <!-- Footer -->
-<footer class="page-footer font-small blue-grey lighten-5">
+<footer class="page-footer font-small blue-grey lighten-5 h-100 section">
 
     <div style="background-color: #c4bbbb;">
       <div class="container">
@@ -334,13 +337,15 @@
     <!-- Footer Links -->
   
     <!-- Copyright -->
-    <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+    <div class="footer-copyright text-center text-black py-3 foo">© 2020 Copyright:
       <a class="dark-grey-text" href="#"> Zomato.com</a>
     </div>
     <!-- Copyright -->
   
   </footer>
   <!-- Footer -->
+
+</div>
     </body>
 
    
