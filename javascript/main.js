@@ -34,3 +34,16 @@ const getHotel = () => {
         }
     })
 }
+
+
+let test=()=>{
+    document.getElementById('coupon').style.visibility="visible";
+}
+let closediv=()=>{
+    document.getElementById('coupon').style.visibility="hidden";
+}
+let apply=()=>
+{
+    document.getElementById('coupon').style.visibility="hidden";
+   
+}

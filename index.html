@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Testing
+            Zomato
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -29,6 +29,7 @@
                document.getElementById("b2").style.backgroundImage="none"  
                document.getElementById("b2").classList.toggle('dark')   
                document.querySelector(".white").style.color="white"  
+               document.querySelector(".whi").style.color="white"  
                 document.querySelector("#navbar").classList.toggle('dark')
                 
                 
@@ -40,7 +41,7 @@
         window.onload=getCity()
     </script>
         <nav class="navbar   navbar-expand-md navbar-light my-sm-0 ">
-            <a class="navbar-brand ml-5" href="#"><i style="color:#d81511;"><h3>Zomato</h3></i></a>
+            <a class="navbar-brand ml-5" href="#"><i style="color:#d81511;"><h3 style="font-weight:900">Zomato</h3></i></a>
             <a class="nav-link ml-auto"onclick="change()" id="yellow"href="#"><i class="fas fa-moon"></i><span id="ml" id="light" >Dark Mode</span>
             </i></a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +61,49 @@
               </ul>
             </div>
           </nav>
+
+
+
+          
+        <!--Coupon-->
+        <div id="coupon">
+           
+          <div class="left bor">
+              <img src="images/R.png" alt="" class="img1" >
+          </div>
+          <div class="right">
+              <button id="close" onclick="closediv()"> &times;</button>       
+              <p class="red"> 
+                  <span class="small">T&C Apply</span> 
+              </p>
+              <p>
+                  Flat <span style="font-weight:900; font-size:50px ">30%</span>
+                   off on
+              </p>
+              <p>
+                  All Dishes
+              </p>
+              <h4>
+                  No Minimum order amount
+              </h4>
+              
+              <div class="btns">
+              <button class = "bb22 "onclick="closediv()">Cancel</button>
+              <button class = "bb22"onclick="apply()">Apply</button>
+              </div>
+         
+          </div>
+         
+      
+  </div>
+  </div>
+  <script>
+      window.onload = test();
+  </script>
           <!--Main page-->
+          
+
+
 
           <div class="snap">
          
@@ -68,66 +111,56 @@
             
 
            <div class="logo">
-                <span><h2 style="font-size:80px"><i>Zomato</i></h2></span>
+                <span><h2 style="font-size:80px; font-weight: 900;" ><i>Zomato</i></h2></span>
                 
             </div>
             <div class="subheading">
-                <h3>
-                    Find the Best Restaurant Near You
+                <h3 style="font-weight: 900; font-size:40px;">
+                    Find the Best Hotels
                 </h3>
             </div>
 
+
             <div class="db">
-
-              
               <select onChange="getHotel()" id="city" >
-                  <option ><i class="fas fa-map-marker-alt"></i> select city</option>
-                      
-                     
-                  
+                  <option > select city</option>
+                    
               </select>
-          
-
-          
+        
               <select class="rselect" id="hotels">
-                  <option>
-                      <i class="fas fa-search"></i>
-
-               Find the Restaurant
+                  <option >
+                      Find the Restaurant
                   </option>
               </select>
-          
+            </div>
 
-         
-      </div>
-      
-  </div>
+        </div>
 
 
-           
-           
-        
-               
-    </div>
+
+
+
+
+
        
        <!--Content site-->
 
        <div class="b2 section" id="b2">
             <div class="mh">
                 <h3 class="white">Quick Search</h3><br>
-                <h4 class="white">Discover Restaurants By Meal</h4>
+                <h4 class="whi">Discover Restaurants By Meal</h4>
             </div>
             
             <div class="container-fluid" id="con1">
             
                 <div class="row  align-items-center justify-content-center">
         
-                    <div class=" col-md-3 col-sm-5  col-9 box p-1 hover-zoom" id="just">
+                    <div class=" col-md-3 col-sm-5  col-9 box p-1 hover-zoom" id="just" >
                         <a href="">
                         <div class="im">
                             <img src="images/break1.png" alt="">
                         </div>
-                            <div class="content  mx-1  mt-2">
+                            <div class="content  mx-1  mt-2 ">
                                 <h3>BreakFast</h3>
                                 <p>Enjoy Your BreakFast </p>
                         </div>
@@ -331,6 +364,19 @@
   
         </div>
         <!-- Grid column -->
+
+        <div class="vid col-md-4  col-12 col-xl-2 mx-auto mb-4">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/dXirvvVXXWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="vid col-md-4  col-12 col-xl-2 mx-auto mb-4">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/PpNdfDM4xhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="vid col-md-4  col-12 col-xl-2 mx-auto mb-4">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/_U8DcQK8eVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
   
       </div>
       <!-- Grid row -->
@@ -338,12 +384,13 @@
     </div>
     <!-- Footer Links -->
   
+    
     <!-- Copyright -->
     <div class="footer-copyright text-center text-black py-3 foo">© 2020 Copyright:
       <a class="dark-grey-text" href="#"> Zomato.com</a>
     </div>
     <!-- Copyright -->
-  
+    
   </footer>
   <!-- Footer -->
 
