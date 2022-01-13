@@ -83,7 +83,7 @@ select{
     height:60px;
     width:35%;
     margin-right:5px;
-    color:#ffffff;
+    color:#000000;
     background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
     border:1px solid white;
     padding-left:10px;
@@ -92,7 +92,7 @@ select{
 .rselect{
     height:60px;
     width:68%;
-    color:#ffffff;
+    color:#000000;
     border:1px solid white;
     padding-left:10px;
     background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
@@ -250,7 +250,7 @@ color:#694567;
     select{
         height:70px;
         width:40%;
-        color:#ffffff;
+        color:#000000;
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
         border:1px solid white;
         padding-left:10px;
@@ -259,7 +259,7 @@ color:#694567;
     .rselect{
         height:70px;
         width:58%;
-        color:#ffffff;
+        color:#000000;
         border:1px solid white;
         padding-left:10px;
         float:bottom;
@@ -330,7 +330,7 @@ border-top-right-radius: 15px;
 
 #coupon
 {
-    width: 60%;
+    width: 55%;
     margin:auto;
     min-height:300px;
     position: absolute;
