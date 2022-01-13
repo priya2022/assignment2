@@ -249,7 +249,7 @@ color:#694567;
     }
     select{
         height:70px;
-        width:40%;
+        width:100%;
         color:#000000;
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
         border:1px solid white;
@@ -258,7 +258,7 @@ color:#694567;
     }
     .rselect{
         height:70px;
-        width:58%;
+        width:100%;
         color:#000000;
         border:1px solid white;
         padding-left:10px;
@@ -450,16 +450,7 @@ border-top-right-radius: 15px;
     z-index: 999;
 }
 
-.navbar-brand{
-    font-weight: 800;
-}
-#yellow {
-    color:#fd5c34;
-}
-#ml{
-   
-    color: #d60400;
-}
+s
 
 }
 @media only screen and (max-width:650px){
@@ -479,16 +470,7 @@ border-top-right-radius: 15px;
     color:white;
     z-index: 999;
 }
-.navbar-brand{
-    font-weight: 800;
-}
-#yellow {
-    color:#fd5c34;
-}
-#ml{
-    
-    color: #d60400;
-}
+
 
 
 
