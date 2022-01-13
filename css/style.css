@@ -310,6 +310,80 @@ border-top-right-radius: 15px;
 
 }
 
+@media only screen and (max-width:300px){
+    .db{
+        width:90%;
+        margin: auto;
+        height:160px;
+        margin-top:50px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content:center;
+        border:2px solid red;
+        display:flex;
+        
+    }
+    select{
+        height:70px;
+        width:100%;
+        color:#000000;
+        background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
+        border:1px solid white;
+        padding-left:10px;
+        float:top;
+    }
+    .rselect{
+        height:70px;
+        width:100%;
+        color:#000000;
+        border:1px solid white;
+        padding-left:10px;
+        float:bottom;
+        background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
+    }
+    .box
+{
+height:200px;
+background:#f4f8fd;
+margin:10px;
+padding:3px;
+box-shadow: 10px 15px 10px #000000;
+align-items: center;
+justify-content: center;
+background: linear-gradient(80deg, rgb(245, 242, 242), rgb(246, 207, 207));
+border-bottom-left-radius: 15px;
+border-top-right-radius: 15px;
+
+
+}
+.im>img 
+{
+background-size: contain;
+height:120px;
+position: relative;
+width: 100%;
+border-top-right-radius: 15px;
+}
+.mh
+{
+    font-size:20px;
+    padding-top:12px;
+    font-weight:800;
+}
+.mh>h3 {
+    padding-left: 25px;
+    margin-top: 6px;
+    color: #694567;
+}
+.mh>h4 {
+    font-size: 20px;
+    padding-left: 23px;
+    color: #383775;
+    margin-top: -23px;
+}
+
+}
+
 /*.snap
 {
     overflow: auto;
@@ -434,7 +508,7 @@ border-top-right-radius: 15px;
    cursor:pointer;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:300px){
     #coupon
 {
     width: 100%;
