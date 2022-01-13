@@ -245,6 +245,8 @@ color:#694567;
         box-sizing: border-box;
         align-items: center;
         justify-content:center;
+        border:2px solid red;
+        display:flex;
         
     }
     select{
@@ -254,7 +256,7 @@ color:#694567;
         background:linear-gradient(55deg, rgb(248, 210, 210),rgb(246, 113, 113));
         border:1px solid white;
         padding-left:10px;
-        
+        float:top;
     }
     .rselect{
         height:70px;
