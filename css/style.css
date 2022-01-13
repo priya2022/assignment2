@@ -435,14 +435,33 @@ border-top-right-radius: 15px;
 @media only screen and (max-width:400px){
     #coupon
 {
-    width: 60%;
+    width: 90%;
     margin:auto;
     min-height:300px;
     position: absolute;
     border-radius:20px;
     display:flex;
-    margin-left: 20%;
-    margin-top:10%;
+    margin-left: 5%;
+    margin-top:5%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('../images/2233.jpg');
+    box-shadow:10px 10px 10px rgb(0, 0, 0);
+    color:white;
+    z-index: 999;
+}
+
+}
+@media only screen and (max-width:650px){
+    #coupon
+{
+    width: 80%;
+    margin:auto;
+    min-height:300px;
+    position: absolute;
+    border-radius:20px;
+    display:flex;
+    margin-left: 10%;
+    margin-top:5%;
     font-family: 'Courier New', Courier, monospace;
     background-image: url('../images/2233.jpg');
     box-shadow:10px 10px 10px rgb(0, 0, 0);
@@ -453,3 +472,4 @@ border-top-right-radius: 15px;
 
 
 }
+
