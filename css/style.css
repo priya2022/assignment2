@@ -435,9 +435,9 @@ border-top-right-radius: 15px;
 @media only screen and (max-width:400px){
     #coupon
 {
-    width: 90%;
+    width: 60%;
     margin:auto;
-    min-height:300px;
+    height:300px;
     position: absolute;
     border-radius:20px;
     display:flex;
