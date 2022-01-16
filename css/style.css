@@ -320,7 +320,7 @@ border-top-right-radius: 15px;
         align-items: center;
         justify-content:center;
         border:2px solid red;
-        display:flex;
+        
         
     }
     select{
@@ -526,8 +526,6 @@ border-top-right-radius: 15px;
     z-index: 999;
 }
 
-s
-
 }
 @media only screen and (max-width:650px){
     #coupon
@@ -546,9 +544,4 @@ s
     color:white;
     z-index: 999;
 }
-
-
-
-
 }
-
